@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form TOP</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="middle">
+        <div class="img-container">
+          <div class="card-head">
+            <img src="./odin-lined.png" alt="Odin-Logo">
+            <h1>FORM</h1>
+          </div>
+          <p>Photo by <a href="https://unsplash.com/es/@haliewestphoto">
+            Halie West</a> on <a href="https://unsplash.com/es/fotos/planta-de-hoja-verde-en-fotografia-de-primer-plano-25xggax4bSA">unplash</a></p>
+        </div>
+        <form action="">
+          <div class="form-header">
+           <h1>Sign Up to get started</h1>
+          </div>
+          <div class="container">
+           <h2>Let´s do this</h2>
+          <fieldset>
+            <div class="block-1">
+             <label for="name">First Name</label>
+             <input type="text" name="Name" id="name" pattern="[A-Za-z ]+"/>
+
+             <label for="phone">Phone Number</label>
+              <input type="number" id="phone" name="Phone-Number"/>
+              
+              <label for="password">Password</label>
+              <input type="password" name="Password" id="password"/>
+             
+           </div>
+
+           <div class="block-2">
+            <label for="last-name">Last Name</label>
+             <input type="text" id="last-name" name="Last-name" pattern="[A-Za-z ]+"/>
+
+             <label for="email">Email</label>
+             <input type="email" name="Email" id="email"/>
+
+            <label for="confirm-password">Confirm Password</label>
+            <input
+              type="password"
+              
+              name="Confirm-Password"
+              id="confirm-password"
+            />
+          </div>
+        </div>
+        </fieldset>
+        <button type="submit">Create Account</button>
+        <p class="other-option">Already have an account? <a href="">Log in</a></p>
+      </form>
+    </div>
+  </main>
+    <footer></footer>
+  </body>
+</html>
